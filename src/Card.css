@@ -2,6 +2,9 @@
     padding: 20px;
     background-color: black;
 }
+.intro{
+    margin-bottom: 40px;
+}
 
 Col a{
     text-decoration: none;
@@ -14,20 +17,26 @@ a:hover{
 
 .cad-tex{
     color: #acb4b9;
+    margin-bottom: 8rem;
 }
 
 .pp{
-    background-image: url('img/codebg.jpeg') ;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-image: url('img/fab2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     min-height:30% ;   
 }
 
 .mypassport{
     width: 250px;
+    height: 250px;
     border-radius: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     z-index: 3;
+}
+
+.card{
+    background-color: rgb(45, 41, 41);
 }

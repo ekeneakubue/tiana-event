@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import {Container, Row, Col} from 'react-bootstrap';
 import * as Icon from 'react-bootstrap-icons';
 import './Card.css';
-import cardimg from './img/ekene.jpg'
+import cardimg from './img/fab5.jpeg'
 
 export default function Cards() {
   return (
@@ -18,31 +18,60 @@ export default function Cards() {
                     <Col md={4}></Col>
                 </div>            
                 
-                <div class="card-body text-center bg-dark cad-tex">
-                    <h2 class="card-title text-white">Ekene Akubue</h2>
-                    <h5 className='text-info'>FullStack Developer</h5>
-                    <h5><Icon.TelephoneFill className='text-primary'/> +234 803 2744 865</h5><br/>
+                <div class="card-body text-center cad-tex">
+                    <h2 class="card-title text-white">Fab Solar Technology</h2>                    
                     <Row>
-                    <Col><a href="mailto:gigocode@gmail.com" target="_blank" rel="ekeneakubue" className="icon-colour home-social-icons"><Button variant="info btn btn-block"><Icon.Envelope/> Email</Button></a></Col>
-                    <Col><a href="https://www.linkedin.com/in/ekene-akubue-58046b77/" target="_blank"><Button variant="info btn btn-block"><Icon.Linkedin/> Linkedin</Button></a></Col>
+                        <Col>
+                            <Icon.TelephoneFill className='text-info'/> +234 808 530 2464
+                            &nbsp; &nbsp;
+                            <Icon.EnvelopeFill className='text-info'/> fabsolartechnologies@gmail.com
+                        </Col>                    
                     </Row><br/><br/>
-
-                    <h5 className='text-white'>About</h5>
-                    <hr className='bg-light'/>
-                    <p class="card-text text-justify">I am a Fullstack Developer with 2+ years experience in Web Development. I have a Passion for Creating Clean, 
-                    Beautiful, Responsive and User Friendly Interfaces. I have learnt HTML, CSS, React-Bootstrap,  Javascript, ReactJS, NodeJS, ExpressJS, MongoDB, 
-                    EmailJS and many more. I am  looking to collaborate in any JavaScript Project.</p>
                     
-                    <h5 className='text-white'>Most used Tools</h5>
-                    <hr className='bg-light'/>
-                    <p>Ubuntu Linux, VSCode, GitHub, Vercel, Netlify, Inkscape</p>
+                    
+                    <div>
+                        <h3 className='text-white'>WHO WE ARE</h3>
+                        <hr className='bg-light'/>
+                        <p class="card-text text-justify">
+                            Fab Technology is a subsidiary of Igu World Solar, a Nigeria’s frontline renewable energy company,
+                            committed to providing aﬀordable and reliable solar energy solutions
+                            for households and businesses across Africa.
+                        </p>
+                        <p class="card-text text-justify">
+                            A good number of businesses in Nigeria spends upwards 40% of their proﬁts
+                            to meet their basic power needs. We exist to solve this Problem.
+                            We are committed to increasing the productivity of businesses and providing
+                            comfort to millions of households by oﬀering uninterrupted power supply
+                            through our solar and inverter systems.
+                        </p>
+                        <p class="card-text text-justify">
+                            We are well renowned for our deployment of top-notch solar Products, and we
+                            are wholesomely driven by our organizational values of Excellence, integrity,
+                            customer-centricity and accountability.
+                        </p>
+                    </div>
+
+                    <br/>
+                    <div>
+                        <h3 className='text-white'>MISSION STATEMENT</h3>
+                        <hr className='bg-light'/>
+                        <p class="card-text text-justify">
+                            we remain committed to provide innovative, cost eﬀective, environmentally
+                            friendly reliable power and renewable energy solution to Everyone.
+                            we specialize in providing viable alternative Electricity.
+                        </p>
+
+                        <br/>    
+                        <div><a href="fab-profile.pdf" download className="icon-colour home-social-icons"><Button variant="info"><Icon.Download/> Download Company Brochure</Button></a></div>
+                    </div>                   
                 </div>
+                
                 <div class="text-center footer">
                     <Container>
                         <Row>
-                            <Col><a className="text-info" href="https://wa.me/+2348032744865" target="_blank" rel="noopener npreferrer"><h2><Icon.Whatsapp/></h2></a></Col>
-                            <Col><a className="text-info" href="https://github.com/ekeneakubue" target="_blank"><h2><Icon.Github/></h2></a></Col>
-                            <Col><a className="text-info" href="https://www.instagram.com/ekeneakubue/" target="_blank"><h2><Icon.Instagram/></h2></a></Col>
+                            <Col><a className="text-info" href="https://wa.me/+2348085302464" target="_blank" rel="noopener npreferrer"><h2><Icon.Whatsapp/></h2></a></Col>
+                            <Col><a className="text-info" href="#" target="_blank"><h2><Icon.Facebook/></h2></a></Col>
+                            <Col><a className="text-info" href="#" target="_blank"><h2><Icon.Instagram/></h2></a></Col>
                         </Row>
                     </Container>                
                 </div>
