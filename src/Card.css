@@ -17,26 +17,41 @@ a:hover{
 
 .cad-tex{
     color: #acb4b9;
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
 }
 
 .pp{
-    background-image: url('img/fab2.jpg') ;
+    background-image: url('img/bg.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    min-height:30% ;   
+    min-height:2rem ;   
 }
 
 .mypassport{
     width: 250px;
     height: 250px;
     border-radius: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15rem;
+    margin-bottom: 10px;
     z-index: 3;
 }
 
 .card{
     background-color: rgb(45, 41, 41);
+}
+
+.team__card{
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+li{
+    list-style: none;
+}
+
+.imgg{
+    max-height: 35em;
+    min-height: 35rem;
 }
