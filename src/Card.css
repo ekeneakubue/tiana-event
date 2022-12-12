@@ -55,6 +55,10 @@ ol li{
 }
 
 .imgg{
-    max-height: 10em;
-    min-height: 30rem;
+   width: 150px;
+   border-radius: 100%;
+}
+
+.redu{
+    font-size: small;
 }

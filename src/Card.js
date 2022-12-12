@@ -75,27 +75,37 @@ export default function Cards() {
                         <hr className='bg-warning'/>
 
                         <div className='row'>
-                            <div className="col-md-6">
+                            <div className="col-md-4">
                                 <div className="team__card d-block">                            
-                                    <img src="chinenye3.jpg" className="card-img-top imgg" alt="Prestige"/>
-                                    <div class="card-body bg-warning text-dark">
-                                        <h4 class="card-title">Chinenye Christiana</h4>
-                                        <h6 class="card-text">CEO</h6>                                        
+                                    <img src="chii2.jpg" className="card-img-top imgg" alt="Prestige"/>
+                                    <div class="card-body text-light">
+                                        <p class="card-title">Chinenye Christiana</p>
+                                        <p class="card-text redu">CEO</p>                                        
                                     </div>
                                 </div>
                             </div>
                             <br/>
-                            <div className="col-md-6">
+                            <div className="col-md-4">
                                 <div className="team__card d-block">                            
-                                    <img src="prestige3.jpg" className="card-img-top imgg" alt="Prestige"/>
-                                    <div class="card-body bg-warning text-dark">
-                                        <h4 class="card-title">Prestige Chinedu</h4>
-                                        <h6 class="card-text">General Manager</h6>                                        
+                                    <img src="gg2.jpg" className="card-img-top imgg" alt="Prestige"/>
+                                    <div class="card-body text-light">
+                                        <p className="card-title">Prestige Chinedu</p>
+                                        <p className="card-text redu">General Manager</p>                                        
+                                    </div>
+                                </div>
+                            </div>        
+                            <br/>
+                            <div className="col-md-4">
+                                <div className="team__card d-block">                            
+                                    <img src="dj.jpg" className="card-img-top imgg" alt="DJ"/>
+                                    <div class="card-body text-light">
+                                        <p className="card-title">DJ Smug</p>
+                                        <p className="card-text redu">Tiana's DJ</p>                                        
                                     </div>
                                 </div>
                             </div>                            
                         </div>  
-                        <a href="#" className="icon-colour home-social-icons"><Button variant="info"><Icon.Download/> Download Company Brochure</Button></a>                     
+                        <a href="tianas-album.pdf" download className="icon-colour home-social-icons"><Button variant="info"><Icon.Download/> Download Our Album</Button></a>                     
                     </div>                   
                 </div>
          
