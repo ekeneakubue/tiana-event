@@ -114,7 +114,7 @@ export default function Cards() {
                         <Row>
                             <Col><a className="text-info" href="https://wa.me/+2348109997387" target="_blank" rel="noopener npreferrer"><h2><Icon.Whatsapp/></h2></a></Col>
                             <Col><a className="text-primary" href="https://web.facebook.com/profile.php?id=100071061309391" target="_blank"><h2><Icon.Facebook/></h2></a></Col> 
-                            <Col><a className="text-info" href="https://www.instagram.com/tianas_banquets/" target="_blank"><h2><Icon.Instagram/></h2></a></Col>                           
+                            <Col><a className="text-danger" href="https://www.instagram.com/tianas_banquets/" target="_blank"><h2><Icon.Instagram/></h2></a></Col>                           
                         </Row>
                     </Container>                
                 </div>
