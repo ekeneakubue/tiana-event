@@ -24,7 +24,7 @@ export default function Cards() {
                         <Col>
                             <h5><Icon.TelephoneFill className='text-light'/> +234 810 999 7387</h5>
                         
-                            <h5><Icon.EnvelopeFill className='text-light'/> tianasbanquet.eventplanning@gmail.com</h5>
+                            <p><Icon.EnvelopeFill className='text-light'/> tianasbanquet.eventplanning@gmail.com</p>
                         </Col>                    
                     </Row><br/><br/>
                     
