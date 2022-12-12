@@ -56,12 +56,12 @@ export default function Cards() {
                                     <li><i class="bi bi-record2-fill text-warning"></i> Snacks</li>
                                     <li><i class="bi bi-record2-fill text-warning"></i> Money Banquet</li>
                                     <li><i class="bi bi-record2-fill text-warning"></i> Renting of:
-                                        <ul>
+                                        <ol>
                                             <li><i class="bi bi-record2 text-warning"></i> Wedding Gowns</li>
                                             <li><i class="bi bi-record2 text-warning"></i> Native Wears</li>
                                             <li><i class="bi bi-record2 text-warning"></i> Bridal Shower Gowns</li>
                                             <li><i class="bi bi-record2 text-warning"></i> Bridal Accessories</li>
-                                        </ul>
+                                        </ol>
                                     </li>
                                     <li><i class="bi bi-record2-fill text-warning"></i> Training Classes</li>
                                 
@@ -77,7 +77,7 @@ export default function Cards() {
                         <div className='row'>
                             <div className="col-md-6">
                                 <div className="team__card d-block">                            
-                                    <img src="chinenye2.jpg" className="card-img-top imgg" alt="Prestige"/>
+                                    <img src="chinenye3.jpg" className="card-img-top imgg" alt="Prestige"/>
                                     <div class="card-body bg-warning text-dark">
                                         <h4 class="card-title">Chinenye Christiana</h4>
                                         <h6 class="card-text">CEO</h6>                                        
@@ -87,7 +87,7 @@ export default function Cards() {
                             <br/>
                             <div className="col-md-6">
                                 <div className="team__card d-block">                            
-                                    <img src="prestige2.jpg" className="card-img-top imgg" alt="Prestige"/>
+                                    <img src="prestige3.jpg" className="card-img-top imgg" alt="Prestige"/>
                                     <div class="card-body bg-warning text-dark">
                                         <h4 class="card-title">Prestige Chinedu</h4>
                                         <h6 class="card-text">General Manager</h6>                                        
