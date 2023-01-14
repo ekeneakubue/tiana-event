@@ -24,7 +24,7 @@ export default function Cards() {
                         <Col>
                             <h5><Icon.TelephoneFill className='text-light'/> +234 810 999 7387</h5>
                         
-                            <h5><Icon.EnvelopeFill className='text-light'/> tianasbanquet.eventplanning@gmail.com</h5>
+                            <p><Icon.EnvelopeFill className='text-light'/> tianasbanquet.eventplanning@gmail.com</p>
                         </Col>                    
                     </Row><br/><br/>
                     
@@ -69,42 +69,12 @@ export default function Cards() {
                             </list>
                         </h3>                        
                     </div>
-                    <br/><br/>
+                    <br/>
                     <div className='container-fluid text-center'>
-                        <h3 className='text-light'>OUR TEAM</h3>
+                        
                         <hr className='bg-warning'/>
 
-                        <div className='row'>
-                            <div className="col-md-4">
-                                <div className="team__card d-block">                            
-                                    <img src="chii2.jpg" className="card-img-top imgg" alt="Prestige"/>
-                                    <div class="card-body text-light">
-                                        <p class="card-title">Chinenye Christiana</p>
-                                        <p class="card-text redu">CEO</p>                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <br/>
-                            <div className="col-md-4">
-                                <div className="team__card d-block">                            
-                                    <img src="gg2.jpg" className="card-img-top imgg" alt="Prestige"/>
-                                    <div class="card-body text-light">
-                                        <p className="card-title">Prestige Chinedu</p>
-                                        <p className="card-text redu">General Manager</p>                                        
-                                    </div>
-                                </div>
-                            </div>        
-                            <br/>
-                            <div className="col-md-4">
-                                <div className="team__card d-block">                            
-                                    <img src="dj.jpg" className="card-img-top imgg" alt="DJ"/>
-                                    <div class="card-body text-light">
-                                        <p className="card-title">DJ Smug</p>
-                                        <p className="card-text redu">Tiana's DJ</p>                                        
-                                    </div>
-                                </div>
-                            </div>                            
-                        </div>  
+                        
                         <a href="tianas-album.pdf" download className="icon-colour home-social-icons"><Button variant="info"><Icon.Download/> Download Our Album</Button></a>                     
                     </div>                   
                 </div>
@@ -114,7 +84,7 @@ export default function Cards() {
                         <Row>
                             <Col><a className="text-info" href="https://wa.me/+2348109997387" target="_blank" rel="noopener npreferrer"><h2><Icon.Whatsapp/></h2></a></Col>
                             <Col><a className="text-primary" href="https://web.facebook.com/profile.php?id=100071061309391" target="_blank"><h2><Icon.Facebook/></h2></a></Col> 
-                            <Col><a className="text-info" href="#" target="_blank"><h2><Icon.Twitter/></h2></a></Col>                           
+                            <Col><a className="text-danger" href="https://www.instagram.com/tianas_banquets/" target="_blank"><h2><Icon.Instagram/></h2></a></Col>                           
                         </Row>
                     </Container>                
                 </div>
